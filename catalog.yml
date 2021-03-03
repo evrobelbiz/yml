@@ -1,0 +1,26 @@
+<yml_catalog date="2017-02-05 17:22">
+  <shop>
+  <name> Евробелбизнес</name>
+  <company>Евробелбизнес</company>
+  <url>https://evrobel.biz.ru</url>
+    <categories>
+      <category id="1">Сыры</category>
+    </categories>
+<offers>
+    <offer id="1" type="vendor.model" available="true">
+     <url>http://testbitrix.test/catalog/shelves/rack_2_sectional/</url> 
+                <price>14500.00</price> 
+                <categoryId>1</categoryId> 
+                <currencyId>BYN</currencyId>
+                <name>Шарик, 40 % (оранжевый)</name> 
+                <productName>Шарик, 40 %</productName> 
+                <param name="Артикул" code="article">789789</param>
+                <vendor>Евробелбизнес</vendor> 
+                <param name="Вес" code="weight">60</param>  
+                <unit code="pcs" name="Штука" sym="шт." />
+                <vatRate>none</vatRate>
+                <barcode>012485ab</barcode>
+    </offer>
+  </offers>
+</shop>
+</yml_catalog>
