@@ -1,54 +1,40 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<yml_catalog date="2021-03-03 14:25">
-  <shop>
-    <name>Мой магазин</name>
-    <company>Моя компания</company>
-    <url>www.site.ru</url>
-    <platform>Bitrix</platform>
-    <version>1.2.45</version>
-    <email>email@site.ru</email>
-    <currencies>
-      <currency id="RUR" rate="1" />
-    </currencies>
-    <categories>
-      <category id="1">Мобильные телефоны</category>
-      <category id="2">Чайники</category>
-    </categories>
-    <cpa>1</cpa>
-    <offers>
-      <offer id="1">
-        <url>https://site.ru/catalog/iphone110/</url>
-        <price>99900</price>
-        <currencyId>RUR</currencyId>
-        <categoryId>1</categoryId>
-        <picture>https://site.ru/images/iphone110.jpg</picture>
-        <name>iPhone 110</name>
-        <description>Точная копия iphone 109</description>
-        <param name="Произвольный параметр 1">Белый</param>
-        <param name="Произвольный параметр 2">230</param>
-      </offer>
-      <offer id="2">
-        <url>https://site.ru/catalog/iphone111/</url>
-        <price>199800</price>
-        <currencyId>RUR</currencyId>
-        <categoryId>1</categoryId>
-        <picture>https://site.ru/images/iphone111.jpg</picture>
-        <name>iPhone 111</name>
-        <description>Точная копия iphone 110 но в 2 раза дороже</description>
-        <param name="Произвольный параметр 1">Черный</param>
-        <param name="Произвольный параметр 2">230,7</param>
-      </offer>
-      <offer id="3">
-        <url>https://site.ru/catalog/chaynik1/</url>
-        <price>799</price>
-        <currencyId>RUR</currencyId>
-        <categoryId>2</categoryId>
-        <picture>https://site.ru/images/chainikNoName.jpg</picture>
-        <name>Чайник NoName</name>
-        <description>Отличный дешевый чайник</description>
-        <param name="Произвольный параметр 1">Черный</param>
-        <param name="Произвольный параметр 2">10,76</param>
-      </offer>
-    </offers>
-  </shop>
+<?xml version="1.0" encoding="UTF-8"?>
+<yml_catalog date="2020-11-22T14:37:38+03:00">
+    <shop>
+        <name>BestSeller</name>
+        <company>Tne Best inc.</company>
+        <url>http://best.seller.ru</url>
+        <currencies>
+            <currency id="RUR" rate="1"/>
+        </currencies>
+        <categories>
+            <category id="1">Бытовая техника</category>
+            <category id="10" parentId="1">Мелкая техника для кухни</category>
+        </categories>
+        <delivery-options>
+            <option cost="200" days="1"/>
+        </delivery-options>
+        <offers>
+            <offer id="9012">
+                <name>Мороженица Brand 3811</name>
+                <url>http://best.seller.ru/product_page.asp?pid=12345</url>
+                <price>8990</price>
+                <currencyId>RUR</currencyId>
+                <categoryId>10</categoryId>
+                <delivery>true</delivery>
+                <delivery-options>
+                    <option cost="300" days="1" order-before="18"/>
+                </delivery-options>
+                <param name="Цвет">белый</param>
+                <weight>3.6</weight>
+                <dimensions>20.1/20.551/22.5</dimensions>
+            </offer>
+        </offers>
+        <gifts>
+            <!-- подарки не из прайс‑листа -->
+        </gifts>
+        <promos>
+            <!-- промоакции -->
+        </promos>
+    </shop>
 </yml_catalog>
